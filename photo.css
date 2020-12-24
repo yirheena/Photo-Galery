@@ -1,0 +1,103 @@
+body {
+    background-color:#d9e0e2;
+    padding : 50px;
+    margin: auto;
+}
+.galery {
+    display: flex;
+    margin: 0 auto;
+    width : 70%;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}   
+img {
+    width: 100%;
+}
+figure {
+    margin: 0;
+    height: auto;
+    flex-basis: 20%;
+    padding: 20px;
+    background-color: #fff;
+    color: rgb(21, 18, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 50px;
+    border : 1px solid grey;
+}
+figcaption {
+    text-align: center;
+    padding-top : 10px;
+}
+
+.galery-item:nth-child(2) {
+    position: absolute;
+    right : 450px;
+    top: 350px;
+    z-index: 10;
+}
+.galery-item:nth-child(1) {
+    position: absolute;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    top: 350px;
+    left: 300px;
+    z-index: 100;
+}
+.galery-item:nth-child(5) {
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+.galery-item:nth-child(9) {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+    .galery-item:nth-child(7){
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+.galery-item:nth-child(3){
+    left: 400px;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+.galery-item:nth-child(10){
+    transform: rotate(15deg);
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    z-index: 50;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+.galery-item:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    z-index: 1000;
+}
+
